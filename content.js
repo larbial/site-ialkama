@@ -8,7 +8,7 @@ window.onload = (event) => {
 <div class="marque"></div>
 </a>
 <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-<div class="menu">
+<div class="menu" id="menu">
 <a href="index.html#services" target="_self">SERVICES</a>
 <a href="article.html" target="_self">BLOG</a>
 <a href="a-propos.html" target="_self">A PROPOS</a>
