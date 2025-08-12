@@ -47,6 +47,7 @@ body {
   --color-gray-100: rgba(255, 255, 255, 0.8);
   --color-mediumslateblue: #6366f1;
   --color-slategray-100: #565973;
+  --color-slategray2-100: rgb(167, 151, 151);
 
   /* Gaps */
   --gap-mini: 15px;
@@ -148,7 +149,7 @@ div.menu a:hover {
   /* caché par défaut */
   font-size: 26px;
   cursor: pointer;
-  color: var(--color-slategray-100);
+  color: var(--color-slategray2-100);
   margin-left: auto;
 }
 
@@ -161,7 +162,7 @@ div.menu a:hover {
     position: absolute;
     top: 60px;
     right: 10px;
-    background: var(--color-white);
+    background: var(--color-slategray-100);
     padding: 10px;
     border-radius: 8px;
     gap: 10px;
