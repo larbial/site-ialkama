@@ -7,6 +7,7 @@ window.onload = (event) => {
 <div class="logo-image"></div>
 <div class="marque"></div>
 </a>
+<div class="menu-toggle" id="menu-toggle">&#9776;</div>
 <div class="menu">
 <a href="index.html#services" target="_self">SERVICES</a>
 <a href="article.html" target="_self">BLOG</a>
@@ -27,5 +28,13 @@ window.onload = (event) => {
 <div class="ai-marketing-droits">
 tous droits réservés 2025
 </div>`;
+
+  // Gestion du menu burger
+  const menuToggle = document.getElementById("menu-toggle");
+  const menu = document.getElementById("menu");
+
+  menuToggle.addEventListener("click", () => {
+    menu.classList.toggle("menu-open");
+  });
 
 };
