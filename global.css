@@ -142,7 +142,7 @@ div.menu a:hover {
   color: var(--color-slategray-100);
 }
 
-/* Bouton menu burger (☰) */
+/* Bouton menu burger */
 .menu-toggle {
   display: none;
   /* caché par défaut */
