@@ -142,6 +142,48 @@ div.menu a:hover {
   color: var(--color-slategray-100);
 }
 
+/* Bouton menu burger (☰) */
+.menu-toggle {
+  display: none;
+  /* caché par défaut */
+  font-size: 26px;
+  cursor: pointer;
+  color: var(--color-slategray-100);
+  margin-left: auto;
+}
+
+/* Styles pour mobile */
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+    /* menu caché par défaut */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background: var(--color-slategray-100);
+    padding: 10px;
+    border-radius: 8px;
+    gap: 10px;
+    z-index: 1000;
+  }
+
+  .menu a {
+    color: white;
+    /* lisibilité sur fond sombre */
+  }
+
+  .menu.menu-open {
+    display: flex;
+    /* affiche le menu quand on clique sur le burger */
+  }
+
+  .menu-toggle {
+    display: block;
+    /* affiche le burger sur mobile */
+  }
+}
+
 #header {
   display: flex;
   flex-direction: row;
